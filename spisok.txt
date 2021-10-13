@@ -1,0 +1,11 @@
+1) Selenide
+2) TestNG
+3) Allure
+4) Maven
+5) Owner
+6) Spring???
+7) OpenTest4j
+8) Rest Assured
+9) Lombok
+
+Переделать старый проект.

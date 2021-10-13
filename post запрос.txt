@@ -1,0 +1,12 @@
+http://automationpractice.com/index.php?controller=authentication
+
+Params
+------
+controller authentication
+
+form-data
+---------
+email bogdantkachenko.dn@gmail.com
+passwd qwerty123
+back my-account
+SubmitLogin
