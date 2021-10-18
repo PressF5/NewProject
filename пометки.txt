@@ -1,0 +1,1 @@
+https://www.quickprogrammingtips.com/java/how-to-load-properties-file-in-java.html
