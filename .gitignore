@@ -1,2 +1,8 @@
 target/
 .txt
+*.class
+.allure
+.settings
+.classpath
+.project
+build/

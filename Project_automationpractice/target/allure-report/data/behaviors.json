@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "validLoginTest",
+    "uid" : "6a15acd839f7f577",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1634642208889,
+      "stop" : 1634642274101,
+      "duration" : 65212
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "org.project.pojo.User@2721044", "chrome" ]
+  } ]
+}

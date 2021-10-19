@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should have text 'MY ACCOUNT' {h1}\r\nElement: '<h1 class=\"page-heading\">AUTHENTICATION</h1>'\r\nActual value: AUTHENTICATION\r\nPage source: file:/D:/project/Project_automationpractice/build/reports/tests/1634642273703.0.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "validLoginTest",
+        "uid" : "6a15acd839f7f577",
+        "parentUid" : "ef9ed267850ca837ccd7806f5f75addf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634642208889,
+          "stop" : 1634642274101,
+          "duration" : 65212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "org.project.pojo.User@2721044", "chrome" ]
+      } ],
+      "uid" : "ef9ed267850ca837ccd7806f5f75addf"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

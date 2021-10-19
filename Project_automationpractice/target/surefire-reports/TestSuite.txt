@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 72.162 s <<< FAILURE! - in TestSuite
+validLoginTest(org.project.tests.LoginTest)  Time elapsed: 65.468 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementShould: 
+Element should have text 'MY ACCOUNT' {h1}
+Element: '<h1 class="page-heading">AUTHENTICATION</h1>'
+Actual value: AUTHENTICATION
+Page source: file:/D:/project/Project_automationpractice/build/reports/tests/1634642273703.0.html
+Timeout: 10 s.
+	at org.project.tests.LoginTest.validLoginTest(LoginTest.java:22)
+

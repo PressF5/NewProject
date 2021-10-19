@@ -1,12 +1,20 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" verbose="1" skipfailedinvocationcounts="true">
     <listeners>
-        <listener class-name="com.codeborne.selenide.testng.ScreenShooter"/>
+<!--        <listener class-name="com.codeborne.selenide.testng.ScreenShooter"/>-->
+<!--        <listener class-name="org.project.listeners.ScreenshotListener"/>-->
     </listeners>
     <test name="Chrome">
         <parameter name="browser" value="chrome"/>
-        <packages>
-            <package name="org.project.tests"/>
-        </packages>
+<!--        <packages>-->
+<!--            <package name="org.project.tests"/>-->
+<!--        </packages>-->
+        <classes>
+            <class name="org.project.tests.LoginTest">
+                <methods>
+                    <exclude name="invalidLoginTest"/>
+                </methods>
+            </class>
+        </classes>
     </test>
 </suite>

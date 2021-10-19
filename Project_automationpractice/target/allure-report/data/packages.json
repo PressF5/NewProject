@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "org.project.tests.LoginTest",
+    "children" : [ {
+      "name" : "validLoginTest",
+      "uid" : "6a15acd839f7f577",
+      "parentUid" : "8a2a79db4d22d08b2794ae007635d961",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634642208889,
+        "stop" : 1634642274101,
+        "duration" : 65212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "org.project.pojo.User@2721044", "chrome" ]
+    } ],
+    "uid" : "org.project.tests.LoginTest"
+  } ]
+}

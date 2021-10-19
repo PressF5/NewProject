@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Chrome",
+      "children" : [ {
+        "name" : "org.project.tests.LoginTest",
+        "children" : [ {
+          "name" : "validLoginTest",
+          "uid" : "6a15acd839f7f577",
+          "parentUid" : "51a3fbcf982b42b86068ae739d7d1d2b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1634642208889,
+            "stop" : 1634642274101,
+            "duration" : 65212
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "org.project.pojo.User@2721044", "chrome" ]
+        } ],
+        "uid" : "51a3fbcf982b42b86068ae739d7d1d2b"
+      } ],
+      "uid" : "e7dc1a3ae3753e431fff9c9637a42242"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

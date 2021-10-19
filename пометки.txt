@@ -1,1 +1,3 @@
 https://www.quickprogrammingtips.com/java/how-to-load-properties-file-in-java.html
+https://docs.qameta.io/allure/#_testng
+https://docs.qameta.io/allure/#_selenide

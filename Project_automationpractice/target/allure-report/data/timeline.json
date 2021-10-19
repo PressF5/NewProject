@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Gromova",
+    "children" : [ {
+      "name" : "5836@Gromova.main(1)",
+      "children" : [ {
+        "name" : "validLoginTest",
+        "uid" : "6a15acd839f7f577",
+        "parentUid" : "fe52ca02c56cfa463c3ab18c71b25871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634642208889,
+          "stop" : 1634642274101,
+          "duration" : 65212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "org.project.pojo.User@2721044", "chrome" ]
+      } ],
+      "uid" : "fe52ca02c56cfa463c3ab18c71b25871"
+    } ],
+    "uid" : "a9c50e04c055767ec05fc48d88e11de8"
+  } ]
+}

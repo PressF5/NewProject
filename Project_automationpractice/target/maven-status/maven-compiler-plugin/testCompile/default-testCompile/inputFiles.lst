@@ -1,0 +1,13 @@
+D:\project\Project_automationpractice\src\test\java\org\project\base\BasePage.java
+D:\project\Project_automationpractice\src\test\java\org\project\api\actions\SingInApi.java
+D:\project\Project_automationpractice\src\test\java\org\project\listeners\ScreenshotListener.java
+D:\project\Project_automationpractice\src\test\java\org\project\utils\CookieUtils.java
+D:\project\Project_automationpractice\src\test\java\org\project\constants\UrlType.java
+D:\project\Project_automationpractice\src\test\java\org\project\pages\LoginPage.java
+D:\project\Project_automationpractice\src\test\java\org\project\dataproviders\DataProviders.java
+D:\project\Project_automationpractice\src\test\java\org\project\utils\PropertyUtil.java
+D:\project\Project_automationpractice\src\test\java\org\project\tests\LoginTest.java
+D:\project\Project_automationpractice\src\test\java\org\project\pages\AccountPage.java
+D:\project\Project_automationpractice\src\test\java\org\project\base\BaseTest.java
+D:\project\Project_automationpractice\src\test\java\org\project\pojo\User.java
+D:\project\Project_automationpractice\src\test\java\org\project\utils\JacksonUtils.java
