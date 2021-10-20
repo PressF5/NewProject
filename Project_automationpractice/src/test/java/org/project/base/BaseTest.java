@@ -3,7 +3,6 @@ package org.project.base;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import com.codeborne.selenide.testng.ScreenShooter;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.WebDriver;
@@ -17,9 +16,13 @@ public class BaseTest {
 
     @BeforeSuite
     public void beforeSuit() {
+        System.setProperty("video.folder", "target" + File.separator + "Videos");
+        System.setProperty("recorder.type", "FFMPEG");
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(false));
         Configuration.timeout = 10_000;
+        Configuration.savePageSource = false;
         Configuration.screenshots = false;
+
     }
 
     @BeforeMethod

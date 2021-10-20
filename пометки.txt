@@ -1,3 +1,8 @@
 https://www.quickprogrammingtips.com/java/how-to-load-properties-file-in-java.html
 https://docs.qameta.io/allure/#_testng
 https://docs.qameta.io/allure/#_selenide
+https://github.com/allure-framework/allure2/issues/759
+
+https://github.com/ChristianAA/selenium-springboot-example
+https://habr.com/ru/post/484966/
+https://projectlombok.org/features/experimental/all

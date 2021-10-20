@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should have text 'MY ACCOUNT' {h1}\r\nElement: '<h1 class=\"page-heading\">AUTHENTICATION</h1>'\r\nActual value: AUTHENTICATION\r\nPage source: file:/D:/project/Project_automationpractice/build/reports/tests/1634642273703.0.html\r\nTimeout: 10 s.",
+      "name" : "Element should have text 'MY ACCOUNT' {h1}\r\nElement: '<h1 class=\"page-heading\">AUTHENTICATION</h1>'\r\nActual value: AUTHENTICATION\r\nTimeout: 10 s.",
       "children" : [ {
         "name" : "validLoginTest",
-        "uid" : "6a15acd839f7f577",
-        "parentUid" : "ef9ed267850ca837ccd7806f5f75addf",
+        "uid" : "8a3e4894930e2ddd",
+        "parentUid" : "703e5e7e2e1f97f946c2cdb021bc3014",
         "status" : "failed",
         "time" : {
-          "start" : 1634642208889,
-          "stop" : 1634642274101,
-          "duration" : 65212
+          "start" : 1634729452656,
+          "stop" : 1634729565220,
+          "duration" : 112564
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "org.project.pojo.User@2721044", "chrome" ]
+        "parameters" : [ "org.project.pojo.User@668625f5", "chrome" ]
       } ],
-      "uid" : "ef9ed267850ca837ccd7806f5f75addf"
+      "uid" : "703e5e7e2e1f97f946c2cdb021bc3014"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

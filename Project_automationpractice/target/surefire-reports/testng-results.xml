@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-19T14:16:47 MSK" name="Suite" finished-at="2021-10-19T14:17:55 MSK" duration-ms="67983">
+  <suite started-at="2021-10-20T14:30:43 MSK" name="Suite" finished-at="2021-10-20T14:32:50 MSK" duration-ms="126958">
     <groups>
     </groups>
-    <test started-at="2021-10-19T14:16:47 MSK" name="Chrome" finished-at="2021-10-19T14:17:55 MSK" duration-ms="67983">
+    <test started-at="2021-10-20T14:30:43 MSK" name="Chrome" finished-at="2021-10-20T14:32:50 MSK" duration-ms="126958">
       <class name="org.project.tests.LoginTest">
-        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:org.project.tests.LoginTest@7a94b64e]" started-at="2021-10-19T14:16:47 MSK" name="beforeSuit" finished-at="2021-10-19T14:16:47 MSK" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:org.project.tests.LoginTest@7ed9ae94]" started-at="2021-10-20T14:30:43 MSK" name="beforeSuit" finished-at="2021-10-20T14:30:43 MSK" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuit -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.project.tests.LoginTest@7a94b64e]" started-at="2021-10-19T14:16:48 MSK" name="beforeMethod" finished-at="2021-10-19T14:16:48 MSK" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.project.tests.LoginTest@7ed9ae94]" started-at="2021-10-20T14:30:47 MSK" name="beforeMethod" finished-at="2021-10-20T14:30:47 MSK" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validLoginTest(org.project.pojo.User)[pri:0, instance:org.project.tests.LoginTest@7a94b64e]" started-at="2021-10-19T14:16:48 MSK" name="validLoginTest" data-provider="getValidEmailAddressAndPassword" finished-at="2021-10-19T14:17:54 MSK" duration-ms="65401" status="FAIL">
+        <test-method signature="validLoginTest(org.project.pojo.User)[pri:0, instance:org.project.tests.LoginTest@7ed9ae94]" started-at="2021-10-20T14:30:49 MSK" name="validLoginTest" data-provider="getValidEmailAddressAndPassword" finished-at="2021-10-20T14:32:44 MSK" duration-ms="114900" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.project.pojo.User@2721044]]>
+                <![CDATA[org.project.pojo.User@668625f5]]>
               </value>
             </param>
           </params>
@@ -35,14 +35,12 @@
               <![CDATA[Element should have text 'MY ACCOUNT' {h1}
 Element: '<h1 class="page-heading">AUTHENTICATION</h1>'
 Actual value: AUTHENTICATION
-Page source: file:/D:/project/Project_automationpractice/build/reports/tests/1634642273703.0.html
 Timeout: 10 s.]]>
             </message>
             <full-stacktrace>
               <![CDATA[Element should have text 'MY ACCOUNT' {h1}
 Element: '<h1 class="page-heading">AUTHENTICATION</h1>'
 Actual value: AUTHENTICATION
-Page source: file:/D:/project/Project_automationpractice/build/reports/tests/1634642273703.0.html
 Timeout: 10 s.
 at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
 at com.codeborne.selenide.commands.Should.execute(Should.java:30)
@@ -50,9 +48,9 @@ at com.codeborne.selenide.commands.Should.execute(Should.java:14)
 at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)
 at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)
-at jdk.proxy2/jdk.proxy2.$Proxy15.shouldHave(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy22.shouldHave(Unknown Source)
 at org.project.pages.AccountPage.checkTitle(AccountPage.java:20)
-at org.project.tests.LoginTest.validLoginTest(LoginTest.java:22)
+at org.project.tests.LoginTest.validLoginTest(LoginTest.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -91,11 +89,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.project.tests.LoginTest@7a94b64e]" started-at="2021-10-19T14:17:54 MSK" name="afterMethod" finished-at="2021-10-19T14:17:55 MSK" duration-ms="1041" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.project.tests.LoginTest@7ed9ae94]" started-at="2021-10-20T14:32:49 MSK" name="afterMethod" finished-at="2021-10-20T14:32:50 MSK" duration-ms="1106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.project.tests.LoginTest@7a94b64e]" started-at="2021-10-19T14:17:55 MSK" name="afterSuite" finished-at="2021-10-19T14:17:55 MSK" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.project.tests.LoginTest@7ed9ae94]" started-at="2021-10-20T14:32:50 MSK" name="afterSuite" finished-at="2021-10-20T14:32:50 MSK" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

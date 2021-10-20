@@ -2,7 +2,8 @@
 <suite name="Suite" verbose="1" skipfailedinvocationcounts="true">
     <listeners>
 <!--        <listener class-name="com.codeborne.selenide.testng.ScreenShooter"/>-->
-<!--        <listener class-name="org.project.listeners.ScreenshotListener"/>-->
+        <listener class-name="org.project.listeners.ScreenshotListener"/>
+        <listener class-name="com.automation.remarks.testng.UniversalVideoListener"/>
     </listeners>
     <test name="Chrome">
         <parameter name="browser" value="chrome"/>

@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Tue Oct 19 14:16:48 MSK 2021","Tue Oct 19 14:17:54 MSK 2021","65212","Suite","Chrome","org.project.tests.LoginTest","org.project.tests.LoginTest","validLoginTest","validLoginTest",""
+"failed","Wed Oct 20 14:30:52 MSK 2021","Wed Oct 20 14:32:45 MSK 2021","112564","Suite","Chrome","org.project.tests.LoginTest","org.project.tests.LoginTest","validLoginTest","validLoginTest",""

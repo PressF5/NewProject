@@ -3,16 +3,16 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "validLoginTest",
-    "uid" : "6a15acd839f7f577",
+    "uid" : "8a3e4894930e2ddd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1634642208889,
-      "stop" : 1634642274101,
-      "duration" : 65212
+      "start" : 1634729452656,
+      "stop" : 1634729565220,
+      "duration" : 112564
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "org.project.pojo.User@2721044", "chrome" ]
+    "parameters" : [ "org.project.pojo.User@668625f5", "chrome" ]
   } ]
 }

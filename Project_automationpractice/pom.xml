@@ -95,8 +95,8 @@
               <artifactId>maven-compiler-plugin</artifactId>
               <version>${maven-compiler-plugin.version}</version>
                   <configuration>
-                      <source>17</source>
-                      <target>17</target>
+                      <source>16</source>
+                      <target>16</target>
                   </configuration>
           </plugin>
       </plugins>
@@ -185,5 +185,16 @@
       <artifactId>jackson-databind</artifactId>
       <version>${jackson-databind.version}</version>
     </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/com.automation-remarks/video-recorder-testng -->
+    <dependency>
+      <groupId>com.automation-remarks</groupId>
+      <artifactId>video-recorder-testng</artifactId>
+      <version>2.0</version>
+    </dependency>
+
+
+
   </dependencies>
 </project>

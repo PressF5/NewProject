@@ -1,5 +1,6 @@
 package org.project.tests;
 
+import com.automation.remarks.video.annotations.Video;
 import org.project.base.BaseTest;
 import org.project.dataproviders.DataProviders;
 import org.project.pages.LoginPage;
@@ -17,6 +18,7 @@ public class LoginTest extends BaseTest {
                     enterPassword(user.getPassword());
     }
 
+    @Video
     @Test(dataProvider = "getValidEmailAddressAndPassword", dataProviderClass = DataProviders.class)
     public void validLoginTest(User user) {
         commonPart(user).clickSignIn().checkTitle();
