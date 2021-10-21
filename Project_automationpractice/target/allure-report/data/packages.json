@@ -5,17 +5,17 @@
     "name" : "org.project.tests.LoginTest",
     "children" : [ {
       "name" : "validLoginTest",
-      "uid" : "8a3e4894930e2ddd",
+      "uid" : "49201db1215d789b",
       "parentUid" : "8a2a79db4d22d08b2794ae007635d961",
       "status" : "failed",
       "time" : {
-        "start" : 1634729452656,
-        "stop" : 1634729565220,
-        "duration" : 112564
+        "start" : 1634821711426,
+        "stop" : 1634821772750,
+        "duration" : 61324
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "org.project.pojo.User@668625f5", "chrome" ]
+      "parameters" : [ "org.project.pojo.User@91da29b", "chrome" ]
     } ],
     "uid" : "org.project.tests.LoginTest"
   } ]

@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "Gromova",
     "children" : [ {
-      "name" : "2908@Gromova.main(1)",
+      "name" : "4680@Gromova.main(1)",
       "children" : [ {
         "name" : "validLoginTest",
-        "uid" : "8a3e4894930e2ddd",
-        "parentUid" : "7c3af7cee1a4e329633433e2ef5b6ca3",
+        "uid" : "49201db1215d789b",
+        "parentUid" : "cbdc80f5912d202201d34f5b08d09b08",
         "status" : "failed",
         "time" : {
-          "start" : 1634729452656,
-          "stop" : 1634729565220,
-          "duration" : 112564
+          "start" : 1634821711426,
+          "stop" : 1634821772750,
+          "duration" : 61324
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "org.project.pojo.User@668625f5", "chrome" ]
+        "parameters" : [ "org.project.pojo.User@91da29b", "chrome" ]
       } ],
-      "uid" : "7c3af7cee1a4e329633433e2ef5b6ca3"
+      "uid" : "cbdc80f5912d202201d34f5b08d09b08"
     } ],
     "uid" : "a9c50e04c055767ec05fc48d88e11de8"
   } ]

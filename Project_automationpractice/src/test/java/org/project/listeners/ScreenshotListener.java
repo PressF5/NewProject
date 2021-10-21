@@ -1,8 +1,8 @@
 package org.project.listeners;
 
+import com.automation.remarks.video.recorder.VideoRecorder;
 import com.google.common.io.Files;
 import io.qameta.allure.Allure;
-import lombok.SneakyThrows;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -23,27 +23,51 @@ public class ScreenshotListener implements IInvokedMethodListener {
     }
 
     private void takeVideo(ITestResult testResult) throws IOException {
-        File videoFiles = new File("video");
+        File videoFiles = new File("target" + File.separator + "Videos");
         boolean flag = true;
         byte[] videoByte = null;
-        for(int i = 0; i < videoFiles.list().length && flag; i++){
+
+//        int countTemporaryFiles = 0;
+//        while(countTemporaryFiles >= 0) {
+//            countTemporaryFiles = -1;
+//            System.out.println("Начинаем бегать по циклу while " + countTemporaryFiles);
+//            for (int i = 0; i < videoFiles.list().length; i++) {
+//                if (videoFiles.list()[i].substring(0, "temporary".length()).contains("temporary")) ;
+//                countTemporaryFiles++;
+//            }
+//        }
+//        System.out.println("Прошли цикл while");
+
+        while(flag)
+        for(int i = 0; i < videoFiles.list().length; i++){
             String str = videoFiles.list()[i];
             if(str.substring(0, testResult.getMethod().getMethodName().length()).contains(testResult.getMethod().getMethodName())) {
                 flag = false;
-                videoByte = Files.toByteArray(new File("video" + File.separator + str));
+                System.out.println("Видео найдено");
+                videoByte = Files.toByteArray(new File("target" + File.separator + "Videos" + File.separator + str));
             }
+            System.out.println("Бегаем по циклу " + str);
         }
+
+        System.out.println(videoByte);
         Allure.getLifecycle().addAttachment("Video:", "video/mp4", "mp4", videoByte);
     }
 
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
-        if (method.isTestMethod() && !testResult.isSuccess()){
+        if (method.isTestMethod() && !testResult.isSuccess()) {
             takeScreenshot(testResult);
-            try {
-                takeVideo(testResult);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                takeVideo(testResult);
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//            File video = VideoRecorder.getLastRecording();
+//            System.out.println("|||||" + video.getAbsolutePath() + "|||||");
+//            try {
+//                Allure.getLifecycle().addAttachment("Video:", "video/mp4", "mp4", Files.toByteArray(video));
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
         }
     }
 }

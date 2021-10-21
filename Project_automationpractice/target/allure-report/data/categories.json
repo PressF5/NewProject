@@ -7,17 +7,17 @@
       "name" : "Element should have text 'MY ACCOUNT' {h1}\r\nElement: '<h1 class=\"page-heading\">AUTHENTICATION</h1>'\r\nActual value: AUTHENTICATION\r\nTimeout: 10 s.",
       "children" : [ {
         "name" : "validLoginTest",
-        "uid" : "8a3e4894930e2ddd",
+        "uid" : "49201db1215d789b",
         "parentUid" : "703e5e7e2e1f97f946c2cdb021bc3014",
         "status" : "failed",
         "time" : {
-          "start" : 1634729452656,
-          "stop" : 1634729565220,
-          "duration" : 112564
+          "start" : 1634821711426,
+          "stop" : 1634821772750,
+          "duration" : 61324
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "org.project.pojo.User@668625f5", "chrome" ]
+        "parameters" : [ "org.project.pojo.User@91da29b", "chrome" ]
       } ],
       "uid" : "703e5e7e2e1f97f946c2cdb021bc3014"
     } ],

@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-20T14:30:43 MSK" name="Suite" finished-at="2021-10-20T14:32:50 MSK" duration-ms="126958">
+  <suite started-at="2021-10-21T16:08:29 MSK" name="Suite" finished-at="2021-10-21T16:09:33 MSK" duration-ms="64317">
     <groups>
     </groups>
-    <test started-at="2021-10-20T14:30:43 MSK" name="Chrome" finished-at="2021-10-20T14:32:50 MSK" duration-ms="126958">
+    <test started-at="2021-10-21T16:08:29 MSK" name="Chrome" finished-at="2021-10-21T16:09:33 MSK" duration-ms="64317">
       <class name="org.project.tests.LoginTest">
-        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:org.project.tests.LoginTest@7ed9ae94]" started-at="2021-10-20T14:30:43 MSK" name="beforeSuit" finished-at="2021-10-20T14:30:43 MSK" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:org.project.tests.LoginTest@3b0ca5e1]" started-at="2021-10-21T16:08:29 MSK" name="beforeSuit" finished-at="2021-10-21T16:08:29 MSK" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuit -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.project.tests.LoginTest@7ed9ae94]" started-at="2021-10-20T14:30:47 MSK" name="beforeMethod" finished-at="2021-10-20T14:30:47 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.project.tests.LoginTest@3b0ca5e1]" started-at="2021-10-21T16:08:30 MSK" name="beforeMethod" finished-at="2021-10-21T16:08:30 MSK" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validLoginTest(org.project.pojo.User)[pri:0, instance:org.project.tests.LoginTest@7ed9ae94]" started-at="2021-10-20T14:30:49 MSK" name="validLoginTest" data-provider="getValidEmailAddressAndPassword" finished-at="2021-10-20T14:32:44 MSK" duration-ms="114900" status="FAIL">
+        <test-method signature="validLoginTest(org.project.pojo.User)[pri:0, instance:org.project.tests.LoginTest@3b0ca5e1]" started-at="2021-10-21T16:08:30 MSK" name="validLoginTest" data-provider="getValidEmailAddressAndPassword" finished-at="2021-10-21T16:09:29 MSK" duration-ms="59294" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.project.pojo.User@668625f5]]>
+                <![CDATA[org.project.pojo.User@91da29b]]>
               </value>
             </param>
           </params>
@@ -89,11 +89,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.project.tests.LoginTest@7ed9ae94]" started-at="2021-10-20T14:32:49 MSK" name="afterMethod" finished-at="2021-10-20T14:32:50 MSK" duration-ms="1106" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.project.tests.LoginTest@3b0ca5e1]" started-at="2021-10-21T16:09:32 MSK" name="afterMethod" finished-at="2021-10-21T16:09:33 MSK" duration-ms="857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=FAILURE method=LoginTest.validLoginTest(org.project.pojo.User)[pri:0, instance:org.project.tests.LoginTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.project.tests.LoginTest@7ed9ae94]" started-at="2021-10-20T14:32:50 MSK" name="afterSuite" finished-at="2021-10-20T14:32:50 MSK" duration-ms="47" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.project.tests.LoginTest@3b0ca5e1]" started-at="2021-10-21T16:09:33 MSK" name="afterSuite" finished-at="2021-10-21T16:09:33 MSK" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

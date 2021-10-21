@@ -1,10 +1,10 @@
 [ {
-  "uid" : "8a3e4894930e2ddd",
+  "uid" : "49201db1215d789b",
   "name" : "validLoginTest",
   "time" : {
-    "start" : 1634729452656,
-    "stop" : 1634729565220,
-    "duration" : 112564
+    "start" : 1634821711426,
+    "stop" : 1634821772750,
+    "duration" : 61324
   },
   "status" : "failed",
   "severity" : "normal"
