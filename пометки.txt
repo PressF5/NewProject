@@ -21,7 +21,15 @@ http://owner.aeonbits.org/docs/usage/
 https://github.com/matteobaccan/owner
 
 https://mkyong.com/java/java-properties-file-examples/
+https://applitools.com/blog/selenium-4/
+https://automation-remarks.com/2017/lombok/index.html
+http://ssh.jcabi.com/
+http://www.jcraft.com/jsch/examples/Shell.java.html
 
-
-
-
+Shadow DOM
+https://learn.javascript.ru/shadow-dom
+https://webdevblog.ru/chto-takoe-shadow-dom/
+https://stackoverflow.com/questions/55761810/how-to-automate-shadow-dom-elements-using-selenium
+https://ru.selenide.org/2020/03/18/selenide-5.10.0/
+https://ru.selenide.org/2021/01/23/selenide-5.18.0/
+https://github.com/sukgu/shadow-automation-selenium
