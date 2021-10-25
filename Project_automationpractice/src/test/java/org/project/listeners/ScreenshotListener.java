@@ -7,6 +7,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.project.base.BaseTest;
+import org.project.utils.ReadWriteProperty;
 import org.testng.IInvokedMethod;
 import org.testng.IInvokedMethodListener;
 import org.testng.ITestResult;
@@ -54,8 +55,13 @@ public class ScreenshotListener implements IInvokedMethodListener {
     }
 
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
-        if (method.isTestMethod() && !testResult.isSuccess()) {
+        if (method.isTestMethod() && testResult.isSuccess()) {
             takeScreenshot(testResult);
+
+            ReadWriteProperty.write(((BaseTest) testResult.getInstance()).getMethodName(),
+                    Allure.getLifecycle().getCurrentTestCase().get());
+
+
 //            try {
 //                takeVideo(testResult);
 //            } catch (IOException e) {

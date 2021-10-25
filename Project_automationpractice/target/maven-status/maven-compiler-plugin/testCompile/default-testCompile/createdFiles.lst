@@ -1,8 +1,10 @@
+org\project\utils\ReadWriteProperty.class
 org\project\pages\LoginPage.class
 org\project\base\BaseTest.class
 org\project\base\BasePage.class
 org\project\utils\PropertyUtil.class
 org\project\pages\AccountPage.class
+org\project\utils\ChangeAllureJson.class
 org\project\tests\LoginTest.class
 org\project\utils\CookieUtils.class
 org\project\utils\JacksonUtils.class

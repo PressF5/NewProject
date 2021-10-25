@@ -10,7 +10,7 @@
     <classes>
       <class name="org.project.tests.LoginTest">
         <methods>
-          <include name="validLoginTest" invocation-numbers="0"/>
+          <include name="invalidLoginTest" invocation-numbers="0 1 2"/>
           <include name="beforeMethod"/>
           <include name="afterSuite"/>
           <include name="beforeSuit"/>

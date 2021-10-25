@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="66.922" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="123.494" tests="5" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Komp\AppData\Local\Temp\surefire12141725191130804156\surefirebooter17626017623691512974.jar C:\Users\Komp\AppData\Local\Temp\surefire12141725191130804156 2021-10-21T16-08-25_310-jvmRun1 surefire2396523899652511260tmp surefire_07607484724557692105tmp"/>
+    <property name="sun.java.command" value="C:\Users\Komp\AppData\Local\Temp\surefire72738386644485472\surefirebooter7482333476360952485.jar C:\Users\Komp\AppData\Local\Temp\surefire72738386644485472 2021-10-25T15-45-32_677-jvmRun1 surefire5961950254326306302tmp surefire_010068589226086875447tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\project\Project_automationpractice\target\test-classes;D:\project\Project_automationpractice\target\classes;C:\Users\Komp\.m2\repository\com\codeborne\selenide\5.25.0\selenide-5.25.0.jar;C:\Users\Komp\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Komp\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Komp\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Komp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Komp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Komp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Komp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Komp\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Komp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Komp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Komp\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Komp\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Komp\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Komp\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\Komp\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\Komp\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Komp\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Komp\.m2\repository\com\squareup\okhttp3\okhttp\3.12.13\okhttp-3.12.13.jar;C:\Users\Komp\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Komp\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Komp\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1\httpclient5-5.1.jar;C:\Users\Komp\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.1\httpcore5-5.1.1.jar;C:\Users\Komp\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Komp\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\Komp\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Komp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Komp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Komp\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Komp\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\Komp\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Komp\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Komp\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Komp\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Komp\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Komp\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Komp\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Komp\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Komp\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Komp\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Komp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Komp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Komp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Komp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Komp\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Komp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Komp\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Komp\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Komp\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Komp\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Komp\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Komp\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Komp\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Komp\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\Komp\.m2\repository\org\aeonbits\owner\owner-java8\1.0.12\owner-java8-1.0.12.jar;C:\Users\Komp\.m2\repository\org\aeonbits\owner\owner\1.0.12\owner-1.0.12.jar;C:\Users\Komp\.m2\repository\io\qameta\allure\allure-selenide\2.15.0\allure-selenide-2.15.0.jar;C:\Users\Komp\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\Komp\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\Komp\.m2\repository\io\qameta\allure\allure-testng\2.15.0\allure-testng-2.15.0.jar;C:\Users\Komp\.m2\repository\io\qameta\allure\allure-test-filter\2.15.0\allure-test-filter-2.15.0.jar;C:\Users\Komp\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\Komp\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\Komp\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Komp\.m2\repository\org\slf4j\slf4j-simple\1.7.32\slf4j-simple-1.7.32.jar;C:\Users\Komp\.m2\repository\com\google\inject\guice\5.0.1\guice-5.0.1.jar;C:\Users\Komp\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Komp\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Komp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\Komp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\Komp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\Komp\.m2\repository\com\automation-remarks\video-recorder-testng\2.0\video-recorder-testng-2.0.jar;C:\Users\Komp\.m2\repository\com\automation-remarks\video-recorder-core\2.0\video-recorder-core-2.0.jar;C:\Users\Komp\.m2\repository\org\zeroturnaround\zt-exec\1.10\zt-exec-1.10.jar;C:\Users\Komp\.m2\repository\org\awaitility\awaitility\3.1.6\awaitility-3.1.6.jar;C:\Users\Komp\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Komp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Komp\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Komp\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Komp\.m2\repository\org\json\json\20180813\json-20180813.jar;"/>
     <property name="allure.results.directory" value="target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Komp\AppData\Local\Temp\surefire12141725191130804156\surefirebooter17626017623691512974.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Komp\AppData\Local\Temp\surefire72738386644485472\surefirebooter7482333476360952485.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35-LTS-2724"/>
@@ -57,13 +57,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="validLoginTest" classname="org.project.tests.LoginTest" time="61.589">
-    <failure message="Element should have text &apos;MY ACCOUNT&apos; {h1}&#10;Element: &apos;&lt;h1 class=&quot;page-heading&quot;&gt;AUTHENTICATION&lt;/h1&gt;&apos;&#10;Actual value: AUTHENTICATION&#10;Timeout: 10 s." type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
-Element should have text 'MY ACCOUNT' {h1}
-Element: '<h1 class="page-heading">AUTHENTICATION</h1>'
-Actual value: AUTHENTICATION
+  <testcase name="invalidLoginTest" classname="org.project.tests.LoginTest" time="32.545">
+    <failure message="Element should have text &apos;Password is required.123&apos; {By.xpath: //div[@class=&apos;alert alert-danger&apos; and not(@id)]//li}&#10;Element: &apos;&lt;li type value=&quot;0&quot;&gt;Password is required.&lt;/li&gt;&apos;&#10;Actual value: Password is required.&#10;Timeout: 10 s." type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have text 'Password is required.123' {By.xpath: //div[@class='alert alert-danger' and not(@id)]//li}
+Element: '<li type value="0">Password is required.</li>'
+Actual value: Password is required.
 Timeout: 10 s.
-	at org.project.tests.LoginTest.validLoginTest(LoginTest.java:24)
+	at org.project.tests.LoginTest.invalidLoginTest(LoginTest.java:32)
 ]]></failure>
     <system-out><![CDATA[...
 ... TestNG 7.4.0 by C?dric Beust (cedric@beust.com)
@@ -74,14 +74,14 @@ Timeout: 10 s.
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 [main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\project\Project_automationpractice\build\downloads\1634821711800_4680_1
+[main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\project\Project_automationpractice\build\downloads\1635165939607_7664_1
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 95.0.4638.17 (resolved driver for Chrome 95)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Komp\.cache\selenium\chromedriver\win32\95.0.4638.17\chromedriver.exe
-Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 48172
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 18922
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-окт. 21, 2021 4:08:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+окт. 25, 2021 3:45:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [main] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
 [main] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
@@ -89,7 +89,63 @@ INFO: Detected dialect: W3C
 [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=95.0.4638.54 Platform=WINDOWS
 [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.25.0
 [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-[main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (7386bccde021acbbb6bcce912f855ce2)
+[main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (8a4545780b7c53d69fdde27645feef0a)
 ]]></system-err>
   </testcase>
+  <testcase name="invalidLoginTest" classname="org.project.tests.LoginTest" time="27.004">
+    <failure message="Element should have text &apos;An email address required.123&apos; {By.xpath: //div[@class=&apos;alert alert-danger&apos; and not(@id)]//li}&#10;Element: &apos;&lt;li type value=&quot;0&quot;&gt;An email address required.&lt;/li&gt;&apos;&#10;Actual value: An email address required.&#10;Timeout: 10 s." type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have text 'An email address required.123' {By.xpath: //div[@class='alert alert-danger' and not(@id)]//li}
+Element: '<li type value="0">An email address required.</li>'
+Actual value: An email address required.
+Timeout: 10 s.
+	at org.project.tests.LoginTest.invalidLoginTest(LoginTest.java:32)
+]]></failure>
+    <system-err><![CDATA[[main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on WINDOWS (8a4545780b7c53d69fdde27645feef0a)...
+[main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 902 ms
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\project\Project_automationpractice\build\downloads\1635165975157_7664_1
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 34023
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+окт. 25, 2021 3:46:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
+[main] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
+[main] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
+[main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=95.0.4638.54 Platform=WINDOWS
+[main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.25.0
+[main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+[main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (e8d07f398524295296a16775923309ab)
+]]></system-err>
+  </testcase>
+  <testcase name="invalidLoginTest" classname="org.project.tests.LoginTest" time="20.319">
+    <failure message="Element should have text &apos;An email address required.123&apos; {By.xpath: //div[@class=&apos;alert alert-danger&apos; and not(@id)]//li}&#10;Element: &apos;&lt;li type value=&quot;0&quot;&gt;An email address required.&lt;/li&gt;&apos;&#10;Actual value: An email address required.&#10;Timeout: 10 s." type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have text 'An email address required.123' {By.xpath: //div[@class='alert alert-danger' and not(@id)]//li}
+Element: '<li type value="0">An email address required.</li>'
+Actual value: An email address required.
+Timeout: 10 s.
+	at org.project.tests.LoginTest.invalidLoginTest(LoginTest.java:32)
+]]></failure>
+    <system-err><![CDATA[[main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on WINDOWS (e8d07f398524295296a16775923309ab)...
+[main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 813 ms
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\project\Project_automationpractice\build\downloads\1635166005585_7664_1
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 36745
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+окт. 25, 2021 3:46:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
+[main] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
+[main] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
+[main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=95.0.4638.54 Platform=WINDOWS
+[main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.25.0
+[main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+[main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (42b31ac92a5fdf3a1d8ef1537af5c7b2)
+]]></system-err>
+  </testcase>
+  <testcase name="invalidLoginTest" classname="org.project.tests.LoginTest" time="13.645"/>
+  <testcase name="invalidLoginTest" classname="org.project.tests.LoginTest" time="11.474"/>
 </testsuite>

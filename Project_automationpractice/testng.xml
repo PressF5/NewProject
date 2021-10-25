@@ -13,9 +13,10 @@
         <classes>
             <class name="org.project.tests.LoginTest">
                 <methods>
-                    <exclude name="invalidLoginTest"/>
+                    <exclude name="validLoginTest"/>
                 </methods>
             </class>
         </classes>
+
     </test>
 </suite>

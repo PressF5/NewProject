@@ -1,12 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 66.922 s <<< FAILURE! - in TestSuite
-validLoginTest(org.project.tests.LoginTest)  Time elapsed: 61.589 s  <<< FAILURE!
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 123.494 s <<< FAILURE! - in TestSuite
+invalidLoginTest(org.project.tests.LoginTest)  Time elapsed: 32.545 s  <<< FAILURE!
 com.codeborne.selenide.ex.ElementShould: 
-Element should have text 'MY ACCOUNT' {h1}
-Element: '<h1 class="page-heading">AUTHENTICATION</h1>'
-Actual value: AUTHENTICATION
+Element should have text 'Password is required.123' {By.xpath: //div[@class='alert alert-danger' and not(@id)]//li}
+Element: '<li type value="0">Password is required.</li>'
+Actual value: Password is required.
 Timeout: 10 s.
-	at org.project.tests.LoginTest.validLoginTest(LoginTest.java:24)
+	at org.project.tests.LoginTest.invalidLoginTest(LoginTest.java:32)
+
+invalidLoginTest(org.project.tests.LoginTest)  Time elapsed: 27.004 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementShould: 
+Element should have text 'An email address required.123' {By.xpath: //div[@class='alert alert-danger' and not(@id)]//li}
+Element: '<li type value="0">An email address required.</li>'
+Actual value: An email address required.
+Timeout: 10 s.
+	at org.project.tests.LoginTest.invalidLoginTest(LoginTest.java:32)
+
+invalidLoginTest(org.project.tests.LoginTest)  Time elapsed: 20.319 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementShould: 
+Element should have text 'An email address required.123' {By.xpath: //div[@class='alert alert-danger' and not(@id)]//li}
+Element: '<li type value="0">An email address required.</li>'
+Actual value: An email address required.
+Timeout: 10 s.
+	at org.project.tests.LoginTest.invalidLoginTest(LoginTest.java:32)
 

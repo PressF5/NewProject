@@ -7,7 +7,9 @@ D:\project\Project_automationpractice\src\test\java\org\project\pages\LoginPage.
 D:\project\Project_automationpractice\src\test\java\org\project\dataproviders\DataProviders.java
 D:\project\Project_automationpractice\src\test\java\org\project\utils\PropertyUtil.java
 D:\project\Project_automationpractice\src\test\java\org\project\tests\LoginTest.java
+D:\project\Project_automationpractice\src\test\java\org\project\utils\ChangeAllureJson.java
 D:\project\Project_automationpractice\src\test\java\org\project\pages\AccountPage.java
 D:\project\Project_automationpractice\src\test\java\org\project\base\BaseTest.java
 D:\project\Project_automationpractice\src\test\java\org\project\pojo\User.java
 D:\project\Project_automationpractice\src\test\java\org\project\utils\JacksonUtils.java
+D:\project\Project_automationpractice\src\test\java\org\project\utils\ReadWriteProperty.java

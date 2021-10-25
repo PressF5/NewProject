@@ -24,6 +24,7 @@ public class LoginTest extends BaseTest {
         commonPart(user).clickSignIn().checkTitle();
     }
 
+    @Video
     @Test(dataProvider = "getInvalidEmailAddressAndPassword", dataProviderClass = DataProviders.class)
     public void invalidLoginTest(User user) {
         LoginPage loginPage = commonPart(user);
