@@ -8,6 +8,9 @@ import io.qameta.allure.Allure;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.WebDriver;
+import org.project.annotations.Login;
+import org.project.api.actions.SingInApi;
+import org.project.constants.UrlType;
 import org.project.utils.ChangeAllureJson;
 import org.project.utils.ReadWriteProperty;
 import org.testng.ITestResult;
@@ -17,10 +20,14 @@ import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Locale;
+import java.util.Objects;
+
+import static com.codeborne.selenide.Selenide.open;
 
 public class BaseTest {
 
-    private ThreadLocal<String> methodName = new ThreadLocal<String>();
+    private ThreadLocal<String> methodName = new ThreadLocal<>();
+    private ThreadLocal<SingInApi> signInApi = new ThreadLocal<>();
 
     @BeforeSuite
     public void beforeSuit() {
@@ -28,17 +35,23 @@ public class BaseTest {
         System.setProperty("recorder.type", "FFMPEG");
         //System.setProperty("video.save.mode", "ALL");
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(false));
-        Configuration.timeout = 10_000;
+        Configuration.timeout = 15_000;
         Configuration.savePageSource = false;
         Configuration.screenshots = false;
 
+        signInApi.set(new SingInApi());
     }
 
     @BeforeMethod
     @Parameters("browser")
-    public void beforeMethod(String browser, Method method) {
+    public void beforeMethod(@Optional("chrome") String browser, Method method) {
         Configuration.browser = browser.toLowerCase(Locale.ROOT);
         methodName.set(method.getName());
+
+        Login login = method.getAnnotation(Login.class);
+        if(Objects.nonNull(login)) {
+            open(UrlType.BASE_URL.getEndpoint());
+            signInApi.get().signIn(getDriver()); }
     }
 
     public String getMethodName() {

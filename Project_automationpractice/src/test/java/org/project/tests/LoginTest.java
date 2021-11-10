@@ -18,13 +18,13 @@ public class LoginTest extends BaseTest {
                     enterPassword(user.getPassword());
     }
 
-    @Video
+    //@Video
     @Test(dataProvider = "getValidEmailAddressAndPassword", dataProviderClass = DataProviders.class)
     public void validLoginTest(User user) {
         commonPart(user).clickSignIn().checkTitle();
     }
 
-    @Video
+    //@Video
     @Test(dataProvider = "getInvalidEmailAddressAndPassword", dataProviderClass = DataProviders.class)
     public void invalidLoginTest(User user) {
         LoginPage loginPage = commonPart(user);

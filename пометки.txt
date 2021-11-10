@@ -33,3 +33,9 @@ https://stackoverflow.com/questions/55761810/how-to-automate-shadow-dom-elements
 https://ru.selenide.org/2020/03/18/selenide-5.10.0/
 https://ru.selenide.org/2021/01/23/selenide-5.18.0/
 https://github.com/sukgu/shadow-automation-selenium
+
+
+//Посмотреть как можно через spring boot сделать ветвление между объектами страниц???
+//Переделать под spring boot
+//Подумать как лучше сделать вынос общих элементов страниц, т.е. все самое общее хранить в BasePage а менее общее наследовать от BasePage 
+//и тянуть это дальше к объектам страниц

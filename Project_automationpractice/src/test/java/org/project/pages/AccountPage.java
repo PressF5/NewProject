@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 
 public class AccountPage extends BasePage {
-    SelenideElement title = $("h1");
+    private SelenideElement title = $("h1");
 
     public AccountPage open() {
         Selenide.open(UrlType.ACCOUNT_URL.getEndpoint());
